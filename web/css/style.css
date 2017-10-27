@@ -1,0 +1,86 @@
+/*отключение float для перемещения кнопок в меню вправо*/
+.my_navbar-nav{
+  float: none;
+}
+
+#main_div_task{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    min-height: 100px;
+}
+
+/*отображения числа на календаре*/
+.calendar_text_date{
+  font-size: 22px;
+}
+
+.calendar_text_date_task{
+  float: right;
+  margin-right: 5px;
+  color: darkgrey;
+}
+
+/*блоки отображения календаря*/
+.block_syle{
+  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+  padding-right: 25px;
+}
+
+/*Отступ слева для надписи при регистрации на сайте*/
+.register_main_label{
+  margin-top: 70px;
+}
+
+/*кнопки преключения месяцев на календаре*/
+.btn_settings_month{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/*ячейка с числом в календаре*/
+.table_price_nomber{
+  border-radius: 5px;
+  padding: 2px;
+    box-shadow: 0 0 3px #808080;
+}
+
+/*ячейка для отображения дат прошлого и следующего месяца*/
+.table_price_nomber_buf{
+    color: darkgrey;
+}
+
+/*ячейка в календаре с текущим днём*/
+.current_day{
+    background-color: #00FFFF;
+}
+
+/*row для вывода календаря*/
+#row_body_calendar{
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+/*позиция кнопок входа и регистрации в навигационном меню*/
+#right_positon_main_menu{
+  float: right;
+}
+
+/*форма авторизации на сайте*/
+#form_entry{
+  margin-top: 10px;
+}
+
+#task_label_icon_1{
+  margin-right: 15px;
+  color: #00FF00;
+}
+
+#task_label_icon_2{
+  margin-right: 15px;
+  color: #FF0000;
+}
+
+.delete_task_icon{
+  color: #FF0000;
+}
